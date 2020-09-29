@@ -16,7 +16,7 @@ os.system("hostname control")
 
 def when_activated():
     # code here will be executed if the other button is pressed
-    os.system("bash take_photo.sh")
+    os.system("./take_photo.sh")
     return 0
 
 
