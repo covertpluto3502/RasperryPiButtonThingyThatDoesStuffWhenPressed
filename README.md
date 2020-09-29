@@ -1,2 +1,2 @@
 # RasperryPiButtonThingyThatDoesStuffWhenPressed
-Read the comments in the code
+chmod +x run.sh
