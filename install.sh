@@ -1,3 +1,3 @@
 sudo pip install flask
-sudo apt install fswebcam
+sudo apt-get install fswebcam
 mkdir webcam
