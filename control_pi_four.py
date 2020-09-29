@@ -23,4 +23,4 @@ def when_activated():
 @app.route("/")
 def index():
     when_activated()
-    return 0
+    return "Successfully executed"
