@@ -3,6 +3,7 @@
 # Make sure that the network is connected to the internet
 # Change the code in when_activated to do what you want it to do
 import os
+from datetime import datetime
 try:
     from flask import *
 
@@ -16,7 +17,7 @@ os.system("hostname control")
 
 def when_activated():
     # code here will be executed if the other button is pressed
-    os.system("./take_photo.sh")
+    os.system("fswebcam webcam/image_taken_on_{}.jpg".format(datetime.time())
     return 0
 
 
