@@ -17,7 +17,7 @@ os.system("hostname control")
 
 def when_activated():
     # code here will be executed if the other button is pressed
-    os.system("fswebcam webcam/image.jpg")
+    os.system("fswebcam /home/pi/webcam/image.jpg")
     return 0
 
 
