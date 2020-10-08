@@ -1,8 +1,8 @@
 import gpiozero
 
-button = gpiozero.button(4)
+button = gpiozero.Button(4)
 
 def it_works():
     print("THE BUTTON WORKS")
     
-button.pressed = it_works
+button.when_pressed = it_works
