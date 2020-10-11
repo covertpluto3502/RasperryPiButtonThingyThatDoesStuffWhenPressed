@@ -25,4 +25,4 @@ def when_activated():
 @app.route("/")
 def index():
     when_activated()
-    return render_template("index.html")
+    return "executed"
