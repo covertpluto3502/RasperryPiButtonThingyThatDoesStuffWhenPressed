@@ -1,4 +1,4 @@
-# RasperryPiButtonThingyThatDoesStuffWhenPressed
+
 To set up start on boot:
 Pi4: sudo nano /etc/rc.local
 At the penultimate line add: bash /home/pi/run.sh
