@@ -4,6 +4,7 @@
 # Make sure that the network is connected to the internet
 
 import os
+from signal import pause
 try:
     from gpiozero import *
 
@@ -21,7 +22,7 @@ def send_request(hostname):
 
 
 def send_signal():
-    send_request("control.local") # rename this to whatever the hostname of the other Pi + .local
+    send_request("ip.of.your.pi") # rename this to pi address
 
 
 button.when_released = send_signal
