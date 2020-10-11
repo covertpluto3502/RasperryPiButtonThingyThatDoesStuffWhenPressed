@@ -26,3 +26,4 @@ def send_signal():
 
 
 button.when_released = send_signal
+pause()
